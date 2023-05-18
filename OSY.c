@@ -1,4 +1,4 @@
 int main(){
-    printf("My name is Shun Yokoyama");
+    #自分の名前を書くように．
     return 0;
 }
