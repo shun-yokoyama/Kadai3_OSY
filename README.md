@@ -1,7 +1,7 @@
 ## 共同開発の流れ
 
 ### 1. リモートリポジトリに接続する。
-    git remote add <url>
+    git remote add origin <url>
 ### 2. リモートからローカルにデータを持ってくるためにクローンで複製する。
     git clone <url>
 ### 3. ブランチを切る。（新しくブランチを作る。）以下の作業はこのブランチで行う。
@@ -10,7 +10,7 @@
     notepad OSY.c
 ### 5. 変更点に対するステージングとコミットを行う。
     git add OSY.c
-    git commit OSY.c
+    git commit OSY.c -m "名前入力完了(氏名)"
 ### 6. 変更点を確認する。
     cat OSY.c
 ### 7. リモートリポジトリにpushする。
