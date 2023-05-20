@@ -15,7 +15,7 @@
     cat OSY.c
 ### 7. リモートリポジトリにpushする。
     git push origin <ブランチ名>
-### 8. githubにpull&requestが届く。（横山が許可を出す）
+### 8. githubにCompare&pull requestが届く。（横山が許可を出す）
     グループLINEで教えてほちい。
 ### 9. 3人の名前記入が終わり次第、pullをしてローカルを最新状態にする。
     git pull origin <ブランチ名>
